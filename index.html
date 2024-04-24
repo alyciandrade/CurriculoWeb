@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS-->
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTRAP ICONS-->
+    <!--FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <!--FIM FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Currículo Alycia Andrade</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <h1>AA.</h1>
+            </div> <!-- logo--> 
+
+        <nav class="menu-desktop">
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#curriculo">Currículo</a></li>
+                <li> <a href="#portifolio">Portifólio</a></li>
+            </ul>
+        </nav>
+
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div> <!--btn contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-abrir-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li> <a href="#home">Home</a></li>
+                        <li> <a href="#curriculo">Currículo</a></li>
+                        <li> <a href="#portifolio">Portifólio</a></li>
+                        <li> <a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+
+        </div> <!--interface-->
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="interface">
+                <div class="flex-1">
+                    <div class="txt-home">
+
+                        <h1>ALYCIA ANDRADE<span>.</span></h1>
+                        <p>Sou estudante do 5° semestre do curso de Sistemas de Informação<br> 
+                           pela Universidade Federal do Ceará. Acredito que a tecnologia é uma ferramenta
+                           poderosa para criar soluções inovadoras que impactam positivamente a vida das pessoas.
+                           Atualmente, meu foco de interesse está na área de Front-End, no entanto, estou aberta a explorar
+                           outras áreas dentro da área de tecnologia, pois reconheço a importância da versatilidade 
+                           e da constante evolução profissional.
+                        </p>
+
+                    </div><!--texto-home-->
+
+                    <div class="img-perfil">
+                        <img src="images/img-perfil.jpeg" alt="Foto de Perfil">
+                    </div><!--img-perfil-->
+
+                </div><!--fim flex-1-->
+
+            </div><!--interface-->
+
+        </section><!--fim home-->
+
+         <hr class="linha">
+
+        <section class="currículo" id="curriculo">
+            <div class="inteface">
+                <h2 class="titulo">CURRÍCULO</h2>
+                <div class="flex-2">
+                    <div class="perfil-box">
+                        <h3 class="sub-título"><i class="bi bi-person-fill"></i> PERFIL</h3>
+                        <div class="nome-perfil">ALYCIA ALVES ANDRADE</div>
+                        <p>Estudante de Sistemas de Informação pela Universidade Federal do Ceará (UFC) e 
+                           atual Presidente do Centro Acadêmico de Sistemas de Informação.</p>
+                    </div><!--fim perfil-box-->
+
+                    <div class="formação-acad-box">
+                        <h3 class="sub-título"><i class="bi bi-mortarboard-fill"></i> FORMAÇÃO ACADÊMICA</h3>
+                        <div class="tempo-formação"><span>&#128197;</span> 2022 - Em andamento</div>
+                        <p><span>&#x1F4CD;</span> Universidade Federal do Ceará - Campus Crateús<br>
+                            <span class="negrito" style="margin-left: 28px;">Graduação em Sistemas de Informação.</span></p>
+                    </div><!--fim formação-acad-box-->
+
+                    <div class="projetos-box">
+                        <h3 class="sub-título"><i class="bi bi-mortarboard-fill"></i> PROJETOS RELEVANTES</h3>
+                        <div class="projeto-extensão">Projeto de Extensão</div>
+                        <p><span>&#128197;</span> <i>Janeiro 2024 - Em andamento</i><br>
+                        &bull; Desenvolvimento de Jogos Sérios e Educacionais<br>
+                        <span>&#128197;</span> <i>Agosto 2023 - Dezembro 2023</i><br>
+                        &bull;  Desenvolvimento de Jogo para Auxílio no Aprendizado da Tabuada</p>
+                    </div><!--fim projetos-box-->
+
+                    <div class="skills-box">
+                        <h3 class="sub-título"><i class="bi bi-tools"></i> SKILLS</h3>
+                        <div class="linguagens">Linguagens de Programação e Ferramentas</div>
+                        <ul class= "dev-icons" style="display: flex;">
+                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-c"></i></li>
+                        </ul>
+                        <div class="trabalho">Trabalho</div>
+                        <ul class="itens-trabalho">
+                            <li>
+                               <i class="fas fa-check"></i> <span>Framework - Bootstrap</span>
+                            </li>
+                            <li>
+                               <i class="fas fa-check"></i> <span>Construção de Aplicações Web</span>
+                            </li>
+                            <li>
+                              <i class="fas fa-check"></i> <span>Construção de Aplicações Responsivas</span>
+                            </li>
+                        </ul>
+                    </div><!--fim skills-box-->
+
+                    <div class="idioma-box">
+                        <h3 class="sub-título"><i class="bi bi-globe-americas"></i></i> IDIOMA</h3>
+                        <p>&bull; Inglês
+                            <br><i>Intermediário - Avançado</i> </p>
+                         <p>&bull; Espanhol
+                             <br><i>Básico</i> </p>
+                    </div><!--fim idioma-box-->
+                </div><!--fim flex-2-->
+            </div><!--fim interface-->
+        </section><!--fim currículo-->
+
+        <hr class="linha">
+
+        <section class="portifolio" id="portifolio">
+            <div class="inteface">
+                <h2 class="titulo">PORTIFÓLIO</h2>
+                <h4>Protótipos realizados no Figma</h4>
+                <div class="underline"></div>
+                <div class="flex-3">
+                    <div class="prototipo-1-box">
+                        <p class="titulo-projeto-1"> Gerenciador de Campeonato</p>
+                        <p class="subtitulo-projeto-1"> O Gerenciador de Campeonato é um software que permite a organização e 
+                        gestão eficiente de torneios de futebol.</p>
+                        <p class="icone-figma"><i class="fab fa-figma"></i> 
+                        <a href="https://www.figma.com/file/OEDWNBxOCTPXDjLVzHXzN7/Figma-basics?type=design&node-id=0%3A1&mode=design&t=slHlQNyOrz9rzEns-1">Visualizar Projeto</a></p>
+                    </div><!--fim prototipo-1-box-->
+                    <div class="prototipo-2-box">
+                        <p class="titulo-projeto-2">Aplicativo para Funcionários</p>
+                        <p class="subtitulo-projeto-2"> Protótipo de um aplicativo utilizado pelos funcionários de uma livraria.</p>
+                        <p class="icone-figma"><i class="fab fa-figma"></i> 
+                        <a href="https://www.figma.com/file/WORUtKqN0JZ9V68XlnCPk5/Aplicativo-de-filial-de-loja---Livraria?type=design&mode=design&t=UAUydfJe3HYweatQ-1">Visualizar Projeto</a></p>
+                    </div><!--fim prototipo-1-box-->
+                </div><!--fim flex-3-->
+        </section><!--fim portifolio-->
+
+        <section class="contato" id="contato">  
+            <div class="interface-contato">
+                <h5>AA.</h5>
+                <div class="redes-sociais">
+                    <div class="icones">
+                        <i class="fa-brands fa-google"></i>
+                        <a href="mailto:alyciandrade@gmail.com">
+                          <p>alyciandrade@gmail.com</p>
+                        </a>
+                    </div><!--fim icones-->
+
+                    <div class="icones">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/alyciandrade">
+                          <p>alyciandrade</p>
+                        </a>
+                    </div><!--fim icones-->
+
+                    <div class="icones">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/alycia-andrade-444916274/">
+                          <p>Alycia Andrade</p>
+                        </a>
+                    </div><!--fim icones-->
+
+                    <div class="icones">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/alyciandrade/">
+                          <p>alyciandrade</p>
+                        </a>
+                    </div><!--fim icones-->
+                </div><!--fim redes-sociais-->  
+            </div><!--fim interface-contato-->
+        </section><!--fim contato-->
+    </main>
+</body>
+</html>
